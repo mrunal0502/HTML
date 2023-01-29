@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <h1>Travel form for a trip</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your name"><br>
+            <label for="sectionida">
+            <input type="radio" value="section a" name="section" id="sectionida">Male
+            </label>
+            <label for="sectionidb">
+            <input type="radio" value="section b" name="section" id="sectionidb">Female
+            </label><br>
+            <input type="checkbox" name="Select Facilities" id="facility">
+            <label for="facility">Want Facilities</label>
+            <br>
+            <textarea name="explain" id="explain" rows="10" cols="20"placeholder="Explain why you want to come"></textarea>
+            <br>
+            <select name="vehicle" id="vehicle">
+                <option value="no-car">Select your car</option>
+                <option value="mini">Mini</option>
+                <option value="Sedan">Sedan</option>
+                <option value="SUV">SUV</option>
+            </select>
+
+        </form>
+    </div>
+    
+</body>
+</html>
